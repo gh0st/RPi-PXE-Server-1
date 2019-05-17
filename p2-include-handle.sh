@@ -27,10 +27,10 @@ _unhandle_iso  $DEFTZ_X64  $DEFTZ_X64_URL  ,gid=root,uid=root,norock,mode=292;
 _unhandle_iso  $DEFT_X64  $DEFT_X64_URL;
 _unhandle_iso  $DEVUAN_X64  $DEVUAN_X64_URL;
 _unhandle_iso  $DEVUAN_X86  $DEVUAN_X86_URL;
-handle_iso  $FEDORA_X64  $FEDORA_X64_URL;
+#handle_iso  $FEDORA_X64  $FEDORA_X64_URL;
 _unhandle_iso  $GNURADIO_X64  $GNURADIO_X64_URL;
 _unhandle_iso  $KALI_X64  $KALI_X64_URL;
-handle_iso  $KASPERSKY_RESCUE_X86  $KASPERSKY_RESCUE_X86_URL  timestamping;
+#handle_iso  $KASPERSKY_RESCUE_X86  $KASPERSKY_RESCUE_X86_URL  timestamping;
 _unhandle_iso  $LUBUNTU_DAILY_X64  $LUBUNTU_DAILY_X64_URL  timestamping;
 _unhandle_iso  $LUBUNTU_LTS_X64  $LUBUNTU_LTS_X64_URL;
 _unhandle_iso  $LUBUNTU_LTS_X86  $LUBUNTU_LTS_X86_URL;
@@ -43,20 +43,20 @@ _unhandle_iso  $PENTOO_BETA_X64  $PENTOO_BETA_X64_URL  timestamping;
 _unhandle_iso  $PENTOO_X64  $PENTOO_X64_URL  timestamping;
 _unhandle_iso  $RPDESKTOP_X86  $RPDESKTOP_X86_URL  timestamping;
 _unhandle_iso  $SYSTEMRESCUE_X86  $SYSTEMRESCUE_X86_URL;
-handle_iso  $TINYCORE_X64  $TINYCORE_X64_URL  timestamping;
+#handle_iso  $TINYCORE_X64  $TINYCORE_X64_URL  timestamping;
 _unhandle_iso  $TINYCORE_X86  $TINYCORE_X86_URL  timestamping;
 _unhandle_iso  $UBUNTU_DAILY_X64  $UBUNTU_DAILY_X64_URL  timestamping;
 _unhandle_iso  $UBUNTU_LTS_X64  $UBUNTU_LTS_X64_URL;
 _unhandle_iso  $UBUNTU_LTS_X86  $UBUNTU_LTS_X86_URL;
 _unhandle_iso  $UBUNTU_STUDIO_DAILY_X64  $UBUNTU_STUDIO_DAILY_X64_URL  timestamping;
 _unhandle_iso  $UBUNTU_STUDIO_X64  $UBUNTU_STUDIO_X64_URL;
-handle_iso  $UBUNTU_X64  $UBUNTU_X64_URL;
+#handle_iso  $UBUNTU_X64  $UBUNTU_X64_URL;
 
 #custom#
 #handle_iso  $DESINFECT_X64  $DESINFECT_X64_URL;
 #handle_iso  $DESINFECT_X86  $DESINFECT_X86_URL;
 #_unhandle_iso  $UBUNTU_NONPAE  $UBUNTU_NONPAE_URL;
-#handle_iso  $WIN_PE_X86  $WIN_PE_X86_URL;
+handle_iso  $WIN_PE_X86  $WIN_PE_X86_URL;
 
 #broken#
 #_unhandle_iso  $ANDROID_X86  $ANDROID_X86_URL;
@@ -69,7 +69,7 @@ handle_iso  $UBUNTU_X64  $UBUNTU_X64_URL;
 #_unhandle_img  $UBUNTU_FWTS  $UBUNTU_FWTS_URL;
 
 ##########################################################################
-handle_kernel  $ARCH_NETBOOT_X64  $ARCH_NETBOOT_X64_URL  timestamping;
+#handle_kernel  $ARCH_NETBOOT_X64  $ARCH_NETBOOT_X64_URL  timestamping;
 
 
 ##########################################################################
